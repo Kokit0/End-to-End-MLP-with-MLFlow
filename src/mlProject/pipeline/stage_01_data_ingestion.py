@@ -11,7 +11,7 @@ class DataIngestionTrainingPipeline: #<-- El pipeline que diseñé en mi data_in
         pass
 
     def main(self): #<-- El main method que llamaré desde main.py en carpeta raiz
-       config = ConfigurationManager() #inicio mi ConfigurationManager
+        config = ConfigurationManager() #inicio mi ConfigurationManager
         data_ingestion_config = config.get_data_ingestion_config()
         data_ingestion = DataIngestion(config=data_ingestion_config)
         data_ingestion.download_file() #llamo el metodo de download
