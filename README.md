@@ -21,7 +21,7 @@
 Clone the repository
 
 ```bash
-https://github.com/entbappy/End-to-end-Machine-Learning-Project-with-MLflow
+https://github.com/Kokit0/End-to-End-MLP-with-MLFlow.git
 ```
 ### STEP 01- Create a conda environment after opening the repository
 
@@ -123,7 +123,7 @@ export MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0
 ## 5. Open EC2 and Install docker in EC2 Machine:
 	
 	
-	#optinal
+	#opcional
 
 	sudo apt-get update -y
 
@@ -164,5 +164,3 @@ MLflow
  - Its Production Grade
  - Trace all of your expriements
  - Logging & tagging your model
-
-
