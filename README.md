@@ -8,7 +8,7 @@
 3. Update params.yaml
 4. Update the entity
 5. Update the configuration manager in src config
-6. Update the components ←data ingestion/validation/training/etc
+6. Update the components ←data properties para ingestion/validation/training/etc
 7. Update the pipeline ←separaré mi pipeline en 2 para valid/train
 8. Update the main.py
 9. Update the app.py ←donde pondré toda las funcionalidades UI desde la cual ir integrando todo el proyecto

@@ -2,6 +2,7 @@ import os
 import sys
 import logging
 
+# mi custom login
 logging_str = "[%(asctime)s: %(levelname)s: %(module)s: %(message)s]"
 
 log_dir = "logs"
@@ -13,7 +14,7 @@ logging.basicConfig(
     level= logging.INFO,
     format= logging_str,
 
-    handlers=[#dos metodos. iuno para situar el log en al ruta correcta y streamhandler para print my log en mi terminal
+    handlers=[#dos metodos. uno para situar el log en al ruta correcta y streamhandler para print my log en mi terminal
         logging.FileHandler(log_filepath),
         logging.StreamHandler(sys.stdout)
     ]

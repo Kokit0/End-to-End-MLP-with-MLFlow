@@ -10,7 +10,7 @@ data_ingestion: #<---data ingestion y configuración
 
 data_validation:
   root_dir: artifacts/data_validation
-  unzip_data_dir: artifacts/data_ingestion/dataset_SCL.csv #<--- leeré la data desde esta carpeta del paso anterior
+  unzip_data_dir: artifacts/data_ingestion/winequality-red.csv #<--- leeré la data desde esta carpeta del paso anterior
   STATUS_FILE: artifacts/data_validation/status.txt
 
 
