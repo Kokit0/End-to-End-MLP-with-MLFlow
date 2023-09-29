@@ -1,8 +1,9 @@
+#copio las mismas rutas importando configuraciones con logger
 from mlProject.config.configuration import ConfigurationManager
 from mlProject.components.data_validation import DataValiadtion
 from mlProject import logger
 
-
+# defino nombre del stage
 STAGE_NAME = "Data Validation stage"
 
 class DataValidationTrainingPipeline:
