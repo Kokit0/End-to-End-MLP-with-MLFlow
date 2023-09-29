@@ -24,3 +24,9 @@ model_trainer:
   train_data_path: artifacts/data_transformation/train.csv #<--- rutas para llamar mis train para el modelo
   test_data_path: artifacts/data_transformation/test.csv #<--- rutas para llamar mis test para el modelo
   model_name: model.joblib
+
+model_evaluation:
+  root_dir: artifacts/model_evaluation
+  test_data_path: artifacts/data_transformation/test.csv #<--- rutas para el testing
+  model_path: artifacts/model_trainer/model.joblib
+  metric_file_name: artifacts/model_evaluation/metrics.json #<--- salvara las metricas en mi .json

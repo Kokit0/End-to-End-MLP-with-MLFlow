@@ -37,10 +37,8 @@ class ModelTrainerConfig: #<--- rutas para entrenar con los test.csv y train.csv
     target_column: str # <---columna objetivo segun lo definamos en schema.yaml ( Quality of wine)
 
 
-
-'''
 @dataclass(frozen=True)
-class ModelEvaluationConfig:
+class ModelEvaluationConfig: # Con esto iremos guardando los parametros, accediendo al path del modelo, la columna objetivo (schem.yaml) y escribiendolo en el URI de MLflow
     root_dir: Path
     test_data_path: Path
     model_path: Path
@@ -48,4 +46,3 @@ class ModelEvaluationConfig:
     metric_file_name: Path
     target_column: str
     mlflow_uri: str
-    '''

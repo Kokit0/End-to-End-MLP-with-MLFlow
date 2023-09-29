@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/OneDrive/Documents/End-to-End-MLP-with-MLFlow/mlruns/0/3c13082289cd496f976ce9bd0473dcbd/artifacts
+end_time: 1695968658613
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3c13082289cd496f976ce9bd0473dcbd
+run_name: flawless-stork-177
+run_uuid: 3c13082289cd496f976ce9bd0473dcbd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695968653660
+status: 3
+tags: []
+user_id: Jorgeamayas

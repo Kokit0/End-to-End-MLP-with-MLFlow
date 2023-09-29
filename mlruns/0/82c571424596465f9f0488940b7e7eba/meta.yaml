@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/OneDrive/Documents/End-to-End-MLP-with-MLFlow/mlruns/0/82c571424596465f9f0488940b7e7eba/artifacts
+end_time: 1695966678076
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 82c571424596465f9f0488940b7e7eba
+run_name: chill-dolphin-36
+run_uuid: 82c571424596465f9f0488940b7e7eba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695966673249
+status: 3
+tags: []
+user_id: Jorgeamayas
