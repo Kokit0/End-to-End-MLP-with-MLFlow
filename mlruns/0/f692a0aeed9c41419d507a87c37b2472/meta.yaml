@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/OneDrive/Documents/End-to-End-MLP-with-MLFlow/mlruns/0/f692a0aeed9c41419d507a87c37b2472/artifacts
+end_time: 1695972726224
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f692a0aeed9c41419d507a87c37b2472
+run_name: nimble-crane-537
+run_uuid: f692a0aeed9c41419d507a87c37b2472
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695972721202
+status: 3
+tags: []
+user_id: Jorgeamayas
