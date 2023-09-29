@@ -26,20 +26,19 @@ class DataTransformationConfig:
     data_path: Path
 
 
-'''
 @dataclass(frozen=True)
-class ModelTrainerConfig:
+class ModelTrainerConfig: #<--- rutas para entrenar con los test.csv y train.csv segun lo definido en el config.yaml 
     root_dir: Path
     train_data_path: Path
     test_data_path: Path
     model_name: str
-    alpha: float
-    l1_ratio: float
-    target_column: str
+    alpha: float # <--- parametro alpha predefinido en params.yaml
+    l1_ratio: float # <--- parametro l1 predefinido en mi params.yaml
+    target_column: str # <---columna objetivo segun lo definamos en schema.yaml ( Quality of wine)
 
 
 
-
+'''
 @dataclass(frozen=True)
 class ModelEvaluationConfig:
     root_dir: Path

@@ -17,3 +17,10 @@ data_validation:
 data_transformation:
   root_dir: artifacts/data_transformation #<--- creamos folder para la transformacion y el file final de origen (data_ingestion/wine...)
   data_path: artifacts/data_ingestion/winequality-red.csv
+
+
+model_trainer:
+  root_dir: artifacts/model_trainer
+  train_data_path: artifacts/data_transformation/train.csv #<--- rutas para llamar mis train para el modelo
+  test_data_path: artifacts/data_transformation/test.csv #<--- rutas para llamar mis test para el modelo
+  model_name: model.joblib
