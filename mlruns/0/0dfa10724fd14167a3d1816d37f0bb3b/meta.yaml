@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/OneDrive/Documents/End-to-End-MLP-with-MLFlow/mlruns/0/0dfa10724fd14167a3d1816d37f0bb3b/artifacts
+end_time: 1695970282519
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0dfa10724fd14167a3d1816d37f0bb3b
+run_name: resilient-shark-122
+run_uuid: 0dfa10724fd14167a3d1816d37f0bb3b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695970277835
+status: 3
+tags: []
+user_id: Jorgeamayas

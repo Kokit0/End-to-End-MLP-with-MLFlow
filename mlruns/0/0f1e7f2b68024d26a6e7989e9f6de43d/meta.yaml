@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/OneDrive/Documents/End-to-End-MLP-with-MLFlow/mlruns/0/0f1e7f2b68024d26a6e7989e9f6de43d/artifacts
+end_time: 1695970336344
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0f1e7f2b68024d26a6e7989e9f6de43d
+run_name: kindly-penguin-483
+run_uuid: 0f1e7f2b68024d26a6e7989e9f6de43d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695970331022
+status: 3
+tags: []
+user_id: Jorgeamayas
